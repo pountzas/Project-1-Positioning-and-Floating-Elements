@@ -2,7 +2,7 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+> Project 1: Positioning and floating elements
 
 ![screenshot](./app_screenshot.png)
 
