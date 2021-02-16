@@ -1,3 +1,129 @@
-ul {
+* {
+  text-align: center;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+  margin: 0;
+  margin-top: 100px;
+}
+h1 {
+  font-size: 30px;
+  
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h3, h5 {
+  text-align: left;
+  padding-left: 100px;
+}
+
+
+article {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  max-width: 600px;
+  min-width: 500px;
+  margin: auto;
+  text-align: left;
+  font-size: large;
+  line-height: 1.4;
+}
+
+.topnav {
+  
+  display: inline;
+}
+.topleftnav img{
+  margin-right: 15px;
+}
+
+.topleftnav {
+  float: left;
+  display: flex;
+  align-content: space-between;
+  padding-left: 6%;
+  
+}
+.toprightnav {
+  float: right;
+  display: inline;
+  
+  padding-right: 6%;
+}
+
+#outer-nav {
+  width: 100%;
+  padding-top: 15px;
+  z-index: 1;
+  position: fixed;
+  background-color: white;
+  top: 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgb(211, 210, 210);
+  margin-bottom: 0;
+}
+
+.inflation-left {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: left;
+}
+#inflation-photo {
+  z-index: -1;
+}
+
+.inflation-group {
+  width: 940px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 14px;
+  
+}
+
+.inflation-top {
+  position: absolute;
+  display: flex;
+  top: 190px;
+  padding: 0;
+}
+
+.inflation-top li {
+  width: 220px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.inflation-bottom {
+  position: absolute;
+  display: flex;
+  top: 470px;
+  padding: 0;
+}
+
+.inflation-bottom li {
+  width: 220px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+li {
     list-style-type: none;
+    display: inline;
+    
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
 }
