@@ -3,6 +3,7 @@
   color: black;
   font-family: 'Times New Roman', Times, serif,'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
+
 body {
   margin: 0;
   margin-top: 100px;
@@ -11,6 +12,7 @@ body {
 a {
   text-decoration: none;
 }
+
 hr {
   border: 0;
   border-top: 1px solid rgb(231, 229, 229);
@@ -20,6 +22,7 @@ hr {
 li {
   list-style-type: none;
 }
+
 .lower-logo-bar {
   padding-top: 20px;
 }
@@ -27,7 +30,6 @@ li {
 .lower-logo-bar img{
   text-align: left;
 }
-
 
 .low-nav-lists {
   display: grid;
@@ -65,7 +67,6 @@ li {
 }
 
 h1 {
-  
   font-size: 40px;
   font-style: italic;
   text-align: left;
@@ -77,18 +78,15 @@ h1 {
   text-align: left;
 }
 
-/*social*/
-
 .social {
   text-align: left;
-  
-  
 }
+
 .social-logo {
   max-width: 25px;
   padding-right: 10px;
-  
 }
+
 aside {
   float: right;
   position: absolute;
@@ -96,21 +94,17 @@ aside {
   width: 250px;
   margin-top: 350px;
   margin-left: 1300px;
-  
 }
 
 aside img {
   max-width: 60px;
   display: block;
-  
   padding-right: 5px;
 }
 
 aside a {
-  
   font-size: 14px;
   text-align: left;
-  
 }
 
 .aside-elem {
@@ -195,6 +189,10 @@ footer {
   color: rgb(129, 129, 129);
 }
 
+.hr-footer {
+  padding-top: 1px;
+}
+
 /*NAVBAR*/
 .topnav {
   display: inline;
@@ -203,7 +201,6 @@ footer {
 
 .topleftnav img{
   margin-right: 15px;
-  
 }
 
 .topleftnav {
@@ -211,12 +208,10 @@ footer {
   display: flex;
   align-content: space-between;
   padding-left: 6%;
-  
 }
 .toprightnav {
   float: right;
   display: inline;
-  
   padding-right: 6%;
 }
 
@@ -229,14 +224,12 @@ footer {
   top: 0;
 }
 
-
-
 .inflation-left-top, .inflation-left-bottom {
   font-family: 'Times New Roman', Times, serif;
   padding: 0;
   text-align: left;
-  
 }
+
 .inflation-left-top {
   font-size: 18px;
   font-weight: normal;
@@ -246,10 +239,12 @@ footer {
 .inflation-left-bottom {
   font-size: 12px;
   font-weight: normal;
+  padding-top: 10px;
 }
 
 #inflation-photo {
   z-index: -1;
+  width: 100%;
 }
 
 .inflation-group {
@@ -257,7 +252,6 @@ footer {
   margin: 0 auto;
   position: relative;
   font-size: 14px;
-  
 }
 
 .inflation-top {
@@ -285,7 +279,3 @@ footer {
   margin-right: 20px;
   text-align: left;
 }
-
-
-
-
