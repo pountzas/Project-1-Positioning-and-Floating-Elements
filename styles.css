@@ -198,7 +198,9 @@ footer {
 /*NAVBAR*/
 .topnav {
   display: inline;
+  width: 200px;
 }
+
 .topleftnav img{
   margin-right: 15px;
   
