@@ -11,7 +11,7 @@
 <body>
     <header>
         <div id="outer-nav">
-            <nav class="topleftnav">
+            <nav class="topleftnav flex float-left">
                 <img src="./images/menu.png" style="width:20px" alt="menu">
                 <img src="./images/magnifier.png" style="width:20px" alt="search">
                 <a href="#">SPACE & COSMOS</a>
@@ -21,9 +21,9 @@
                     <img src="./images/New-York-Times-Logo.png" style="width:200px"  alt="NYT logo">
                 </a>
             </nav>
-            <nav class="toprightnav">
-                <button class="button" type="button">SUBSCRIBE NOW</button>
-                <button class="button" type="button">LOG IN</button>
+            <nav class="toprightnav float-right">
+                <button class="big-buttons" type="button">SUBSCRIBE NOW</button>
+                <button class="big-buttons" type="button">LOG IN</button>
             </nav>
             <hr>
         </div>
@@ -32,6 +32,17 @@
             <div class="h1-hr">
                 <h1 >Space Ripples Reveal Big Bang’s Smoking Gun</h1>
                 <hr>
+                <div class="social-master">
+                    <ul class="social flex">
+                        <li><img class="social-logo" src="/images/baseline_facebook_black_18dp.png" alt="FB logo"></li>
+                        <li><img class="social-logo" src="/images/baseline_facebook_black_18dp.png" alt="FB logo"></li>
+                        <li><img class="social-logo" src="/images/baseline_facebook_black_18dp.png" alt="FB logo"></li>
+                        <li><img class="social-logo" src="/images/baseline_facebook_black_18dp.png" alt="FB logo"></li>
+                        <li><img class="social-logo" src="/images/baseline_facebook_black_18dp.png" alt="FB logo"></li>
+                        <li><img class="social-logo" src="/images/baseline_facebook_black_18dp.png" alt="FB logo"></li>
+                        <li><img class="social-logo" src="/images/baseline_facebook_black_18dp.png" alt="FB logo"></li>
+                    </ul>
+                </div>
             </div>
             
             <figure>
@@ -61,18 +72,18 @@
 
             </section>
 
-            <aside>
+            <aside class="float-right">
                 <h4>Editors’ Picks</h4>
-                <div class="aside-elem">
+                <div class="aside-elem flex">
                     <img src="./images/aside1.jpg" alt="">
                     <a href="#">Meet America’s 63rd National Park</a>
                 </div>
 
-                <div class="aside-elem">
+                <div class="aside-elem flex">
                     <img src="./images/aside2.jpg" alt="">
                     <a href="#">Please Go Shelter in Another Place</a>
                 </div>    
-                <div class="aside-elem">
+                <div class="aside-elem flex">
                     <img src="./images/aside3.jpg" alt="">
                     <a href="#">‘Her Voice Was Distinctive and It Projected Down the Aisle’</a>
                 </div>
@@ -105,14 +116,14 @@
                 <span>Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</span>
             
                 <img id=inflation-photo src="./images/inflation-945.png"  alt="theory of Inflation">
-                <ul class="inflation-top">
+                <ul class="inflation-top class">
                     <li><strong>THE UNIVERSE</strong>  is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.</li>
                     <li><strong>NOT ENOUGH TIME</strong>  The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.</li>
                     <li><strong>DISTANT COFFEE</strong>  At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.</li>
                     <li><strong>COFFEE EVERYWHERE</strong>  Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation.</li>
                 </ul>
 
-                <ul class="inflation-bottom">    
+                <ul class="inflation-bottom flex">    
                     <li><strong>STILL NOT ENOUGH TIME</strong>  There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature.</li>
                     <li><strong>INFLATION</strong>  solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.</li>
                     <li><strong>FLUCTUATION</strong>  Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.</li>
@@ -210,7 +221,43 @@
                     " | "
                     <a href="https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY">Subscribe</a>
                 </div>
+                <div class="social-master flex">
+                    <button class="big-buttons" type="button">READ 615 COMMENTS</button>
+                    <ul class="social flex">
+                        <li><img class="social-logo" src="/images/baseline_facebook_black_18dp.png" alt="FB logo"></li>
+                        <li><img class="social-logo" src="/images/baseline_facebook_black_18dp.png" alt="FB logo"></li>
+                        <li><img class="social-logo" src="/images/baseline_facebook_black_18dp.png" alt="FB logo"></li>
+                        <li><img class="social-logo" src="/images/baseline_facebook_black_18dp.png" alt="FB logo"></li>
+                        <li><img class="social-logo" src="/images/baseline_facebook_black_18dp.png" alt="FB logo"></li>
+                    </ul>
+                </div>
             </section>
+        </div>
+        <div class="flex article-master">
+            <div class="article-buttons">
+                <img class="article-pic" src="./images/the-morning.png" alt="Daily the morning">
+                <button type="button">+</button>
+                <p>DAILY</p>
+                <h3>The Morning</h3>
+                <p>Make sense of the day's news and ideas. David Leonhardt and Times journalists guide you through what's happening - and why it matters.</p>
+                <a href="#">See the latest</a>
+            </div>
+            <div class="article-buttons">
+                <img class="article-pic" src="./images/breaking.png" alt="breaking news">
+                <button type="button">+</button>
+                <p>AS NEEDED</p>
+                <h3>Breaking News</h3>
+                <p>Alerts when important news break around the world.</p>
+                <a href="#">See the latest</a>
+            </div>
+            <div class="article-buttons">
+                <img class="article-pic" src="./images/nyt-at-home.png" alt="weekly at home">
+                <button type="button">+</button>
+                <p>WEEKLY</p>
+                <h3>At Home</h3>
+                <p>Our best suggestion for how to live a full cultured life during the pandemic, at home</p>
+                <a href="#">See the latest</a>
+            </div>
         </div>
     </main>
    
@@ -219,11 +266,11 @@
             <hr>
             <hr>
             <br>
-            <img class="footer-logo" src="./images/New-York-Times-Logo.png" style="width:200px"  alt="NYT logo">
-            <a class="footer-home" href="#">Go to Home Page</a>
+            <img class="footer-logo float-left" src="./images/New-York-Times-Logo.png" style="width:200px"  alt="NYT logo">
+            <a class="footer-home float-right" href="#">Go to Home Page</a>
 
         </div>
-        <div class="low-nav-lists">
+        <div class="low-nav-lists grid">
             <div>
                 <ul>
                     <li class="li-nav-title">news</li>
@@ -305,7 +352,6 @@
                     <li><a href="#">NYT Store</a></li>
                     <li><a href="#">Times Journeys</a></li>
                     <li><a href="#">Manage My Account</a></li>
-                    
                 </ul>
             </div>
             <div class="line">
