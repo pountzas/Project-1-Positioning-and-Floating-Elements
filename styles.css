@@ -58,6 +58,8 @@ hr {
 .article-buttons {
   border: 1px solid black;
   width: 250px;
+  padding: 15px;
+  text-align: left;
 }
 
 .social-master {
