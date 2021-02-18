@@ -156,7 +156,8 @@ p {
   font-family: 'Times New Roman', Times, serif;
 }
 
-p, .text {
+p,
+.text {
   padding-top: 5px;
   padding-bottom: 5px;
   max-width: 600px;
@@ -232,7 +233,8 @@ footer {
   top: 0;
 }
 
-.inflation-left-top, .inflation-left-bottom {
+.inflation-left-top,
+.inflation-left-bottom {
   font-family: 'Times New Roman', Times, serif;
   padding: 0;
   text-align: left;
