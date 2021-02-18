@@ -29,7 +29,7 @@ a {
   text-decoration: none;
 }
 
-a :hover{
+a :hover {
   text-decoration: initial;
 }
 
@@ -91,14 +91,6 @@ figure img {
   font-size: 17px;
   padding-left: 16vw;
   width: 66%;
-}
-
-.lower-logo-bar {
-  padding-top: 20px;
-}
-
-.lower-logo-bar img {
-  text-align: left;
 }
 
 .low-nav-lists {
@@ -170,6 +162,14 @@ aside a {
   display: flex;
   align-items: center;
   padding: 10px;
+}
+
+.lower-logo-bar {
+  padding-top: 20px;
+}
+
+.lower-logo-bar img {
+  text-align: left;
 }
 
 iframe {
