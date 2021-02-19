@@ -54,8 +54,9 @@ hr {
 }
 
 .suggested {
-  border-top: 1px solid black;
+  
   width: 1000px;
+  padding-left: 20px;
 }
 
 .article-master {
@@ -317,8 +318,9 @@ footer {
 }
 
 .most-popular-list {
+  border-top: 1px solid black;
   max-width: 400px;
-  float: right;
+  margin: 30px 0 0 30px;
 }
 
 .most-popular {
