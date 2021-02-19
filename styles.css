@@ -54,7 +54,6 @@ hr {
 }
 
 .suggested {
-  
   width: 1000px;
   padding-left: 20px;
 }
@@ -282,8 +281,7 @@ footer {
   top: 0;
 }
 
-.inflation-left-top,
-.inflation-left-bottom {
+.inflation-left-top, .inflation-left-bottom {
   padding: 0;
   text-align: left;
 }
