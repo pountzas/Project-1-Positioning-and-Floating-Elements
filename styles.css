@@ -53,6 +53,10 @@ hr {
   padding: 0 30px;
 }
 
+.adv-space-most {
+  padding-left: 150px;
+}
+
 .suggested {
   width: 1000px;
   padding-left: 20px;
@@ -107,6 +111,7 @@ figure img {
 .low-nav-lists {
   grid-template-columns: auto auto auto auto auto auto;
   width: 1200px;
+  padding-left: 30px;
 }
 
 .low-nav-lists ul {
@@ -177,6 +182,7 @@ aside a {
 
 .lower-logo-bar {
   padding-top: 20px;
+  padding-left: 30px;
 }
 
 .lower-logo-bar img {
@@ -227,6 +233,11 @@ p {
 
 .text-title {
   font-weight: bold;
+  padding-right: 28%;
+}
+
+.date {
+  padding-left: 33%;
 }
 
 .end-text {
@@ -239,7 +250,7 @@ p {
 footer {
   width: 1200px;
   margin: 0 0;
-  padding: 0;
+  padding: 0 0 0 300px;
   align-content: space-between;
 }
 
@@ -320,12 +331,21 @@ footer {
   border-top: 1px solid black;
   max-width: 400px;
   margin: 30px 0 0 30px;
+  padding: ;
+}
+.most-title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 25px 0 0 0;
 }
 
 .most-popular {
   font-size: 18px;
   border-top: 1px solid rgb(231, 229, 229);
   font-weight: normal;
+  text-align: left;
 }
 
 .inflation-left-top {
