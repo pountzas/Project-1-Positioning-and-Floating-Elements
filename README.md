@@ -16,7 +16,9 @@
 
 To get a local copy up and running follow these simple example steps.
 ### Setup
-- open your Terminal and go to the desired folder
+- open your Terminal, go to the desired folder and write the following commands
+
+- git init
 - git clone https://github.com/pountzas/Project-1-Positioning-and-Floating-Elements.git
 
 👤 **Author**
