@@ -52,6 +52,7 @@ hr {
   font-size: 12px;
   padding: 0 30px;
 }
+
 .suggested {
   border-top: 1px solid black;
   width: 1000px;
@@ -70,7 +71,6 @@ hr {
   padding: 15px;
   text-align: left;
   margin-top: 60px;
-  
 }
 
 .social-master {
@@ -177,7 +177,6 @@ aside a {
 
 .lower-logo-bar {
   padding-top: 20px;
-  
 }
 
 .lower-logo-bar img {
@@ -308,7 +307,6 @@ footer {
 
 .space-article-tab {
   max-width: 1000px;
-  
 }
 
 .space-article {
