@@ -288,7 +288,6 @@ footer {
 }
 
 .space-top {
-  border-top: 1px solid black;
   width: 1000px;
 }
 
@@ -307,13 +306,14 @@ footer {
 
 .space-article-tab {
   max-width: 1000px;
+  text-align: left;
 }
 
 .space-article {
   font-size: 14px;
-  border: 1px solid black;
-  width: 300px;
+  width: 280px;
   justify-content: space-between;
+  padding: 15px 0 25px 0;
 }
 
 .most-popular-list {
